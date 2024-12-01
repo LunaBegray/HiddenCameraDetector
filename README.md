@@ -51,24 +51,23 @@ This project is a **Python-based tool** that scans your Wi-Fi network for device
 
 ---
 
-## Example Output
+## Example Output:
 
-```
 Enter the IP range of your network (default 192.168.1.0/24): 
 [*] Scanning the network...
-[*] Found 4 devices on the network.
+[*] Found 5 devices on the network.
  - IP: 192.168.1.2, MAC: 00:1A:2B:3C:4D:5E
  - IP: 192.168.1.3, MAC: 00:1A:2B:3C:4D:5F
  - IP: 192.168.1.4, MAC: 00:1A:2B:3C:4D:60
  - IP: 192.168.1.5, MAC: 00:1A:2B:3C:4D:61
+ - IP: 192.168.1.6, MAC: 00:1A:2B:3C:4D:62
 
 [*] Identifying potential cameras...
 [*] Scanning 192.168.1.4...
-[!] Potential camera detected: 192.168.1.4 (MAC: 00:1A:2B:3C:4D:60)
+[!] Potential camera detected: {'ip': '192.168.1.4', 'mac': '00:1A:2B:3C:4D:60', 'os': 'Embedded Linux (likely for IP camera)', 'vendor': 'Dahua', 'open_ports': [554, 80]}
 
 [!] Potential hidden cameras detected:
- - IP: 192.168.1.4, MAC: 00:1A:2B:3C:4D:60
-```
+ - IP: 192.168.1.4, MAC: 00:1A:2B:3C:4D:60, OS: Embedded Linux (likely for IP camera), Vendor: Dahua, Open Ports: [554, 80]
 
 ---
 
