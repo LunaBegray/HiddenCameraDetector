@@ -35,7 +35,7 @@ This project is a **Python-based tool** that scans your Wi-Fi network for device
 ## Installation
 
 1. Clone or download this repository.
-2. Save the script as `hidden_camera_detector.py`.
+2. Save the script as `main.py`.
 
 ---
 
@@ -44,7 +44,7 @@ This project is a **Python-based tool** that scans your Wi-Fi network for device
 1. Open a terminal and navigate to the script's directory.
 2. Run the script:
    ```bash
-   python hidden_camera_detector.py
+   python main.py
    ```
 3. Enter your network's IP range when prompted (default is `192.168.1.0/24`).
 4. The tool will scan your network, display connected devices, and identify potential cameras.
